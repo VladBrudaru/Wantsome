@@ -1,0 +1,55 @@
+
+
+.container {
+    display: inline-block;
+    border: 10px dotted red;
+    padding: 15px;
+    background-clip: content-box;
+}
+
+
+.parinte {
+    position: relative;
+   text-align: center;
+   color: white;
+}   
+
+
+h1 {
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+h2 {
+    position: absolute;
+    top:53%;
+    left: 41%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+button {
+    position: absolute;
+    color: black;
+    top: 70%;
+    left: 48%;
+    background-color: white;
+    opacity: 0.4;
+}
+
+h1:hover {
+    background-color: red;
+}
+
+h2:hover {
+    background-color: red;
+}
+
+button:hover{
+    background-color: red;
+}
+
+
