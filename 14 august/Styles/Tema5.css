@@ -1,0 +1,157 @@
+/* Patratele sa porneasca din colt*/
+
+.container {
+    height: 800px;
+    width:800px;
+    background-color: gray;
+    position: relative;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+}
+
+.square1 {
+    background-color: yellow;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.square2 {
+    background-color: blue;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.square3 {
+    background-color: green;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+/*Patratele sa porneasca din centru */
+
+.parinte {
+    height: 800px;
+    width:800px;
+    background-color: gray;
+    position: relative;
+    
+}
+
+.patrat {
+    height: 200px;
+    width: 200px;
+}
+
+.patrat1 {
+    background-color: yellow;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    
+}
+
+.patrat2 {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.patrat3 {
+    background-color: green;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Centrul patratului galben sa porneasca din centrul parintelui*/
+
+.father {
+    height: 800px;
+    width:800px;
+    background-color: gray;
+    position: relative;
+    
+}
+
+.son {
+    height: 200px;
+    width: 200px;
+}
+
+.son1 {
+    background-color: yellow;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    
+}
+
+.son2 {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.son3 {
+    background-color: green;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Problema 2*/
+
+
+.parent {
+    height: 600px;
+    width: 99%;
+    border: 6px dotted purple;
+    border-radius: 14px;
+    background-color:lightgreen;
+    text-align: center;
+    position: relative;
+}
+
+.child {
+    height: 500px;
+    width: 550px;
+    border: 6px dotted purple;
+    border-radius: 14px;
+    
+    
+}
+
+.child1 {
+    background-color: cadetblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.child3 {
+    background-color: burlywood;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    right: 20px;
+}
+
+.child2 {
+    background-color: plum;
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+    z-index: 1;
+}
+
+
+
