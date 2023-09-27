@@ -1,0 +1,64 @@
+.startmenu {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 3fr;
+  border: 1px solid black;
+  height: 750px;
+  width: 1000px;
+  background-color: black;
+  margin-top: 50px;
+  margin-left: 200px;
+  opacity: 0.85;
+}
+.startmenu .container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  width: 60px;
+  height: 700px;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+.startmenu .container2 {
+  color: white;
+  overflow-y: scroll;
+}
+.startmenu .container2 p {
+  display: flex;
+  gap: 5px;
+}
+.startmenu .container3 p {
+  color: white;
+  padding-left: 70px;
+}
+.startmenu .container3 .productivity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 5px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  padding-left: 70px;
+  height: 240px;
+  width: 400px;
+}
+.startmenu .container3 img {
+  height: 120px;
+  width: 125px;
+}
+.startmenu .container3 .explore {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 5px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  padding-left: 70px;
+  height: 240px;
+  width: 400px;
+}
+.startmenu .container3 .apps {
+  display: flex;
+  padding-left: 70px;
+  padding-top: 40px;
+  gap: 5px;
+}/*# sourceMappingURL=Tema8-2.css.map */
