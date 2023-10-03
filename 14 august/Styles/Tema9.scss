@@ -1,0 +1,42 @@
+
+@import url(media9.scss);
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    text-align: center;
+    .header {
+        height: 50px;
+        background-color: orange;
+    }
+    .center {
+        display: flex;
+        .aside1 {
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+        }
+        .content {
+            height: 300px;
+            width: 600px;
+            background-color: cornflowerblue;
+        }
+        .aside2 {
+            height: 300px;
+            width: 300px;
+            background-color: magenta;
+        }
+    }
+    .footer {
+        height: 50px;
+        background-color: lightgreen;
+    }
+}
+
+
+
