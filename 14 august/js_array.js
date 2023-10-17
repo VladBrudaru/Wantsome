@@ -29,10 +29,3 @@ for(let i=0; i<lista.length; i++){
 
 }
 
-for(let i=0; i<lista.length; i++){
-    if (typeof lista[i] === "boolean"){
-        lista[i]!=true
-        console.log(lista[i])
-    }
-
-}
