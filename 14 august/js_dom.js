@@ -1,13 +1,13 @@
-var center = document.createElement('center'); 
+const center = document.createElement('center'); 
   
 
-var ChessTable = document.createElement('table'); 
-for (var i = 0; i < 8; i++) { 
-    var tr = document.createElement('tr'); 
-    for (var j = 0; j < 8; j++) { 
+const ChessTable = document.createElement('table'); 
+for (let i = 0; i < 8; i++) { 
+    const tr = document.createElement('tr'); 
+    for (let j = 0; j < 8; j++) { 
   
         
-        var td = document.createElement('td'); 
+        const td = document.createElement('td'); 
   
         
         if ((i + j) % 2 == 0) { 
