@@ -1,0 +1,45 @@
+.container {
+    height: 700px;
+    width: 700px;
+    background-color: black;
+    margin-left:320px ;
+    margin-top: 20px;
+    gap: 15px;
+    position: relative;
+    .child {
+        height: 30px;
+        width: 30px;
+        background-color: rgb(33, 222, 159);
+        border-radius: 50%;
+        position: absolute;
+        animation: bounce 1.4s infinite ease-in-out;
+    }
+    .child1 {
+        top: 45%;
+        left: 40%;
+        
+    }
+    .child2 {
+        top: 45%;
+        left: 50%;
+        animation-delay: 0.2s;
+    }
+    .child3 {
+        top: 45%;
+        left: 60%;
+        animation-delay: 0.2s;
+    }
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-40px);
+        }
+    }
+}
+
+
+
+
+
