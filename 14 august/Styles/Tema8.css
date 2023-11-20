@@ -1,0 +1,101 @@
+.container {
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-left: 35%;
+  padding: 5px;
+  background-color: lightgray;
+}
+.container .bara {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 2px;
+}
+.container .bara :hover {
+  background-color: red;
+}
+.container .bara button {
+  border: none;
+}
+.container .bara button :focus {
+  border: none;
+  outline: none;
+}
+.container .bara2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+}
+.container .bara2 :hover {
+  background-color: antiquewhite;
+}
+.container .bara2 button {
+  border: none;
+}
+.container .bara2 button :focus {
+  border: none;
+  outline: none;
+}
+.container .numere .input {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border: none;
+}
+.container .numere .input :hover {
+  background-color: bisque;
+}
+.container .numere .butoane1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 60px;
+  border-radius: 2px;
+}
+.container .numere .butoane1 button {
+  border: none;
+}
+.container .numere .butoane1 button :focus {
+  border: none;
+  outline: none;
+}
+.container .numere .butoane1 :hover {
+  background-color: salmon;
+}
+.container .numere .butoane {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 57px;
+  padding: 2px;
+  border-radius: 2px;
+  gap: 5px;
+  border: none;
+}
+.container .numere .butoane :focus {
+  border: none;
+  outline: none;
+}
+.container .numere .butoane .cifre {
+  background-color: white;
+  border-radius: 2px;
+  border: none;
+}
+.container .numere .butoane .egal {
+  background-color: lightblue;
+  border-radius: 2px;
+  border: none;
+}
+.container .numere .butoane :hover {
+  background-color: aqua;
+}/*# sourceMappingURL=Tema8.css.map */

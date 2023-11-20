@@ -1,0 +1,123 @@
+.container{
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 35%;
+    padding: 5px;
+    background-color:lightgray;
+    
+
+    .bara {
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 50px;
+        justify-content: space-between;
+        border-radius: 2px;
+        
+        :hover {
+            background-color: red;
+        }
+        button{
+            border: none;
+                :focus{
+                    border: none;
+                    outline: none;
+                }
+        }
+    }
+    .bara2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 3fr;
+        grid-template-rows: 1fr 1fr;
+        height: 50px;
+        border: none;
+        border-radius: 2px;
+        :hover{
+            background-color: antiquewhite;
+        }
+        button{
+            border: none;
+                :focus{
+                    border: none;
+                    outline: none;
+                }
+        }
+    }
+    .numere{
+        .input{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            height: 60px;
+            margin-bottom: 15px;
+            border-radius: 2px;
+            border: none;
+               
+            :hover{
+                background-color: bisque;
+            }
+        }
+        .butoane1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            height: 60px;
+            border-radius: 2px;
+
+            button{
+                border: none;
+                :focus{
+                    border: none;
+                    outline: none;
+                }
+            }
+            
+            :hover{
+                background-color: salmon;
+            }
+
+        }
+        
+        
+        
+        
+        .butoane{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            height: 57px;
+            padding: 2px;
+            border-radius: 2px;
+            gap: 5px; 
+            border: none;
+                :focus{
+                    border: none;
+                    outline: none;
+                }         
+            
+            
+            .cifre{
+                background-color: white;
+                border-radius: 2px;
+                border: none;
+                
+                
+                
+            }
+            
+            .egal{
+                background-color: lightblue;
+                border-radius: 2px;
+                border: none;
+                
+            }    
+            
+            :hover {
+                background-color: aqua;
+            }
+        }
+        
+    }
+}
