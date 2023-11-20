@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 720px) {
+    .main{
+        width: 400px;
+        .header{
+            background-color: red;
+        }
+        .footer{
+            background-color: green;
+        }
+        .center{
+            flex-direction: column;
+            .aside1{
+                background-color: aqua;
+            }
+            .content{
+                background-color: yellow;
+            }
+            .aside2{
+                background-color: brown;
+            }
+        }
+    }
+}
+       
+@media print {
+    .main {
+        background-color: white;
+        color: black;
+    }
+}
+    

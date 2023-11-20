@@ -1,0 +1,37 @@
+@import url(media9.scss);
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+.main .header {
+  height: 50px;
+  background-color: orange;
+}
+.main .center {
+  display: flex;
+}
+.main .center .aside1 {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+.main .center .content {
+  height: 300px;
+  width: 600px;
+  background-color: cornflowerblue;
+}
+.main .center .aside2 {
+  height: 300px;
+  width: 300px;
+  background-color: magenta;
+}
+.main .footer {
+  height: 50px;
+  background-color: lightgreen;
+}/*# sourceMappingURL=Tema9.css.map */
