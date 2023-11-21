@@ -14,5 +14,9 @@ a {
    
 }
 
-
+@media screen and (max-width: 500px){
+    #logo{
+        background-color: red;
+    }
+}
 
