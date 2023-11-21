@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 800px;
+    width: 900px;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 200px;
+}
+
+.title {
+    position: absolute;
+    left: 310px;
+}
+
+.child {
+    height:400px;
+    width: 200px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    margin-top: 150px;
+    align-self: center;
+}   
+
+button {
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    
+}
+  
+
+
+
+
+    
